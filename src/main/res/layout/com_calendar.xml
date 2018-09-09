@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+    <LinearLayout
+        android:id="@+id/linearLayout_headercalendar_com_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:orientation="horizontal"
+        android:background="@drawable/subheader_background" >
+        <ImageView
+            android:id="@+id/imageView_prev_com_calendar"
+            android:layout_width="0dip"
+            android:layout_weight="15"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/Prev"
+            android:src="@drawable/button_prev"
+            android:padding="7dip" />
+        <TextView
+            android:id="@+id/textView_header_com_calendar"
+            android:layout_height="match_parent"
+            android:layout_width="0dip"
+            android:layout_weight="70"
+            android:text="@string/Calendrier"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/calendar_title"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/imageView_next_com_calendar"
+            android:layout_width="0dip"
+            android:layout_weight="15"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/Next"
+            android:src="@drawable/button_next"
+            android:padding="7dip" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/headershadow"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:contentDescription="@string/header"
+        android:src="@drawable/header_shadow"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/linearLayout_headercalendar_com_calendar"
+        />
+    <ScrollView
+        android:id="@+id/scrollView_days_com_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/headershadow"
+        android:layout_above="@+id/bottomshadow"
+        android:background="@color/white" >
+        <LinearLayout
+            android:id="@+id/linearLayout_days_com_calendar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white" >
+        </LinearLayout>
+    </ScrollView>
+    <ImageView
+        android:id="@+id/bottomshadow"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:contentDescription="@string/header"
+        android:src="@drawable/footer_shadow"
+        android:layout_above="@+id/adds"
+        android:scaleType="fitXY"
+        />
+    <ImageView
+        android:id="@+id/adds"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/Pub"
+        android:text="@string/Pub"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="@color/white"
+        />
+</RelativeLayout>

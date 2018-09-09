@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- SHARED CONTENT STRING -->
+    <string name="app_name">Carpe Deum</string>
+    <string name="action_settings">Settings</string>
+    <string name="logo">Logo</string>
+    <string name="header">Header</string>
+    <string name="footerLike">Footer Like</string>
+    <string name="footerShare">Footer Share</string>
+    <string name="footerComment">Footer Comment</string>
+    <string name="Zero">0</string>
+    <string name="SAVE">Enregistrer</string>
+    <string name="INFO_NO_RESULTS">Aucun résultat ne correspond à votre recherche.</string>
+    <string name="REMOVE">Supprimer</string>
+    <string name="DELETE">Effacer</string>
+    <string name="CANCEL">Annuler</string>
+    <string name="OK">Ok</string>
+    <string name="PUBLISH">Publier</string>
+    <string name="COMMENTS">Commentaires</string>
+    <string name="REPORT_THIS">Signaler un contenu inapproprié</string>
+    <string name="INFO_FAILED_CONNECTION">Connexion impossible au serveur. Veuillez vérifier que vous êtes connecté à internet.</string>
+    <string name="ERREUR_IDENTIFICATION">Erreur d\'identification: Utilisateur ou mot de passe manquant.</string>
+    <string name="LOADING">Chargement en cours…</string>
+    <string name="LOADING_BACKGROUND">Chargement en cours…</string>
+    <string name="SEARCH_NAME_PLACEHOLDER">Recherche par nom</string>
+
+    <!-- COM_CARPEDEUM_AUJOURDHUI -->
+    <string name="Date">Date</string>
+    <string name="ChargementEnCours">Chargement en cours</string>
+    <string name="ParoleDHomme">UNE PAROLE D\'HOMME</string>
+    <string name="ParoledHomme">Parole d\'Homme</string>
+    <string name="ParoleDeDieu">LA PAROLE DE DIEU</string>
+    <string name="LaParoledeDieu">La Parole de Dieu</string>
+    <string name="membre">membre</string>
+    <string name="membres">membres</string>
+    <string name="visiteur">visiteur</string>
+    <string name="visiteurs">visiteurs</string>
+    <string name="et">et</string>
+    <string name="enLigne">en ligne</string>
+    <string name="Fetedujour">Fête du jour</string>
+    <string name="Calendrier">Calendrier</string>
+    <string name="CalendrierJour"><![CDATA[Lundi de la 20 semaine du temps ordinaire du temps très ordinaire]]></string>
+    <string name="QuestionsDeFoi">Questions de Foi</string>
+    <string name="Apropos">A propos de Carpe Deum…</string>
+    <string name="ConditionsGenerales">Conditions générales &amp; confidentialité</string>
+    <string name="Geomesse">Géomesse</string>
+
+    <!-- COM_GEOMESSE -->
+    <string name="LIST_LOADING">Chargement…</string>
+    <string name="PLACE_BUTTON_EDIT">Corriger une erreur</string>
+
+    <!-- COM_CARPEDEUM_AUJOURDHUI | COM_CARPEDEUM_MONPROFIL | COM_CARPEDEUM_ENSEMBLE -->
+    <string name="Aujourdhui">Aujourd\'hui</string>
+    <string name="MonProfil">Mon profil</string>
+    <string name="Ensemble">Ensemble</string>
+    <string name="PartagerVia">Partager via</string>
+    <string name="HOME_OFFLINE">Les fonctionnalités et contenus en ligne de l\'application ne sont pas accessibles sans connexion internet.</string>
+    <string name="HOME_LOGIN">Connexion</string>
+    <string name="HOME_LOGOUT">Déconnexion</string>
+    <string name="HOME_CONTACT_US">Contacter l\'équipe</string>
+    <string name="LOGOUT_CONFIRM">Voulez-vous vous déconnecter ?</string>
+
+    <!-- COM_VOICE -->
+    <string name="Oraison">Oraisons</string>
+    <string name="Evangile">Evangile</string>
+    <string name="Meditation">Méditation</string>
+    <string name="MeditationCredits">MéditationCredits</string>
+    <string name="Partager">Partager</string>
+    <string name="Ajouteruncommentaire">Ajouter un commentaire</string>
+    <string name="Ecouterlaversionaudio">Ecouter la version audio</string>
+    <string name="surCarpeDeum">sur Carpe Deum</string>
+    <string name="OraisonTitle">Prions avec l\'Eglise</string>
+    <string name="OraisonHeader">Cette oraison est lue aujourd\'hui par tous les prêtres du monde au cours de la Messe. En la lisant maintenant, nous nous unissons au Pape et aux chétiens du monde entier.</string>
+    <string name="OraisonCredits">Oraison Credits</string>
+    <string name="OraisondujoursurCD">L\'oraison du jour sur Carpe Deum</string>
+    <string name="CALENDAR_READING_SHARE_EMAIL_SUBJECT">La lecture du jour sur Carpe Deum</string>
+    <string name="CALENDAR_PSALM_SHARE_EMAIL_SUBJECT">Le psaume du jour sur Carpe Deum</string>
+    <string name="ParoleDHommeExemple">Le coeur n\'a pas de rides</string>
+    <string name="PenseeDuJour">La pensée du jour sur Carpe Deum</string>
+    <string name="DISPLAY_MORE_COMMENTS">Afficher les %1$d commentaires précédents</string>
+    <string name="CALENDAR_TAB_COMMENTARY_EMPTY">"La méditation associée à l\'évangile du jour n'est pas renseignée. Elle le sera dans une mise à jour à venir."</string>
+    <string name="CALENDAR_TAB_READING">Lecture</string>
+    <string name="CALENDAR_TAB_PSALM">Psaume</string>
+
+    <!-- CANDLES -->
+    <string name="ACCOUNT_CANDLES_0_REMAINING">Hey ! Il ne vous reste plus de cierges. Mais pas de panique, il y a encore du stock !</string>
+    <string name="ACCOUNT_CANDLES_1_REMAINING">Hey ! Il ne vous reste qu\'un cierge. Mais pas de panique, il y a encore du stock !</string>
+    <string name="ACCOUNT_CANDLES_d_REMAINING_FEW">Hey ! Il ne vous reste que %1$d cierges. Mais pas de panique, il y a encore du stock !</string>
+    <string name="ACCOUNT_CANDLES_d_REMAINING_MANY">Il vous reste %d cierges.</string>
+    <string name="CANDLES">Cierges</string>
+    <string name="ACCOUNT_CANDLES_INFO">Un cierge allumé est le signe d’une prière qui dure, et en plus vous donnez à Carpe Deum une petite partie des ressources nécessaires à son développement.</string>
+    <string name="ACCOUNT_CANDLES_PAYMENTS_DISABLED">Les paiements en ligne sont désactivés sur votre appareil. Vous devez vérifier vos réglages et contrôles parentaux si vous souhaitez soutenir Carpe Deum.</string>
+    <string name="ACCOUNT_CANDLES_LOADING_FROM_APP_STORE">Chargement des infos de du Google Play…</string>
+    <string name="ACCOUNT_CANDLES_NO_RESULTS_FROM_APP_STORE">Google Play n\'a retourné aucun résultat.</string>
+    <string name="PRAYER_MESSAGE_CANDLE_OK">Allumer</string>
+    <string name="PRAYER_MESSAGE_CANDLE_S">Il vous reste %1$d cierges virtuels. Voulez-vous en allumer un pour cette intention de prière ?</string>
+    <string name="PRAYER_MESSAGE_CANDLE_0">Vous n\'avez plus de cierges virtuels disponibles. Vous pouvez acheter des cierges supplémentaires et soutenir l\'action de Carpe Deum.</string>
+
+    <!-- COM_CALENDAR -->
+    <string name="Prev">Previous</string>
+    <string name="Next">Next</string>
+    <string name="Pub">Pub</string>
+    <string name="UneParoledHomme">Une Parole d\'Homme</string>
+
+    <!-- COM_QUESTIONS -->
+    <string name="QuestionTitle">La Profession de Foi</string>
+
+    <!-- COM_PRAYERBOOK -->
+    <string name="CarnetDePrieres">Carnet de prières</string>
+    <string name="ExemplePriere">Ceci est un exemple de priere</string>
+    <string name="TextesMediter">Textes à méditer</string>
+    <string name="Ordinaire">Ordinaire de la Messe</string>
+    <string name="OrdinaireTitle">L\'Ordinaire de la Messe</string>
+
+    <!-- COM_VIDEONEWS -->
+    <string name="leKiosque">Le Kiosque</string>
+    <string name="DateExemple">Mardi 20 aout 2013</string>
+    <string name="VideoTitle">Titre de la video</string>
+    <string name="videoText">Ceci est un texte descriptif de la video</string>
+    <string name="textCredits">Signature du texte</string>
+    <string name="HOME_MORE_NEWS">Plus d\'articles…</string>
+
+    <!-- COM_PROFIL -->
+    <string name="LOGIN_OR_REGISTER_INTRO">
+<![CDATA[Et oui ! Il vous manque encore l’essentiel de Carpe Deum ! Si donc vous voulez :<br/>
+    - vivre avec nous la communion des saints,<br/>
+    - partager des intentions de prière,<br/>
+    - allumer des cierges qui font durer votre prière,<br/>
+    - communiquer avec les autres,<br/>
+    - annoncer, réagir, publier,…<br/><br/>
+    <i>…Et vous pourrez aussi prendre un compte « Ange gardien » (accès dans « mon profil »)</i><br/><br/>
+    <strong>Inscrivez-vous, c’est gratuit et immédiat !</strong> Et vos infos  ne seront diffusées sous aucun prétexte.<br/>]]>
+    </string>
+    <string name="LOGIN_EXISTING_ACCOUNT">Mais je suis déjà inscrit !</string>
+    <string name="LOGIN_NEW_ACCOUNT">Je m\'inscris</string>
+    <string name="LOGIN_INPUT_EMAIL">E-mail</string>
+    <string name="LOGIN_INPUT_PASSWORD">Mot de passe</string>
+    <string name="LOGIN_INPUT_EMAIL_PLACEHOLDER">Mon e-mail</string>
+    <string name="LOGIN_INPUT_PASSWORD_PLACEHOLDER">Mon mot de passe</string>
+    <string name="LOGIN_FORGOT_PASSWORD">J\'ai oublié mon mot de passe</string>
+    <string name="SEND">Envoyer</string>
+
+    <!-- COM_PROFILE -->
+    <string name="HOME_PROFILE_MY_MESSAGES">Mes messages</string>
+    <string name="HOME_PROFILE_MY_NEIGHBORS">Mes voisins</string>
+    <string name="HOME_PROFILE_MY_CONTACTS">Mes contacts</string>
+    <string name="HOME_MYLIST_PROFILE">Mon profil</string>
+    <string name="HOME_NUM_MESSAGES"><![CDATA[Nouveaux<br/>messages]]></string>
+    <string name="HOME_NUM_MESSAGE_01">message</string>
+    <string name="HOME_NUM_MESSAGE_N">messages</string>
+    <string name="HOME_NUM_CONTACTS"><![CDATA[Contacts<br/>connectés]]></string>
+    <string name="HOME_NUM_CONTACT_01">contact</string>
+    <string name="HOME_NUM_CONTACT_N">contacts</string>
+    <string name="HOME_NUM_NEIGHBORS"><![CDATA[Connectés<br/>autour de moi]]></string>
+    <string name="HOME_NUM_NEIGHBOR_01">voisin</string>
+    <string name="HOME_NUM_NEIGHBOR_N">voisins</string>
+    <string name="HOME_PUBLISH_UPDATE">Publier une humeur</string>
+    <string name="HOME_MYLIST_PRAYERS">Mes intentions de prière</string>
+    <string name="HOME_MYLIST_CLASSIFIEDS">"Mes annonces"</string>
+    <string name="HOME_TITLE_PLACES">Lieux à proximité</string>
+    <string name="HOME_SWITCH_APPEARS_ONLINE">En ligne</string>
+    <string name="HOME_SWITCH_APPEARS_OFFLINE">Invisible</string>
+    <string name="HOME_SWITCH_GPS_IS_ON">GPS actif</string>
+    <string name="HOME_SWITCH_GPS_IS_OFF">GPS désactivé</string>
+    <string name="HOME_SWITCH_PUSH_IS_ON">Push actif</string>
+    <string name="HOME_SWITCH_PUSH_IS_OFF">Push désactivé</string>
+    <string name="HOME_TITLE_SETTINGS">Mes options</string>
+    <string name="HOME_SHORTCUT_MANUAL_LOCATION">Localisation manuelle</string>
+    <string name="HOME_SHORTCUT_FIND_FRIENDS">Inviter ou retrouver mes amis</string>
+    <string name="HOME_SHORTCUT_DISPLAY_CONVERSATIONS">Afficher mes conversations</string>
+    <string name="HOME_SHORTCUT_CHANGE_EMAIL">Changer mon e-mail</string>
+    <string name="HOME_SHORTCUT_CHANGE_PASSWORD">Changer mon mot de passe</string>
+    <string name="HOME_SHORTCUT_DELETE_PROFILE">Supprimer mon profil</string>
+    <string name="HOME_SHORTCUT_ACCOUNT_PREMIUM">Mon compte Ange Gardien</string>
+    <string name="HOME_SHORTCUT_ACCOUNT_CANDLES">Mes cierges virtuels</string>
+    <string name="PROFILE_BUTTON_MESSAGE">Envoyer un message</string>
+    <string name="PROFILE_BUTTON_FRIEND">Ajouter à mes contacts</string>
+    <string name="PROFILE_BUTTON_UNFRIEND">Supprimer de mes contacts</string>
+    <string name="PROFILE_BUTTON_BLOCK">Bloquer ce profil</string>
+    <string name="PROFILE_BUTTON_UNBLOCK">Débloquer ce profil</string>
+    <string name="LOGIN_EMAIL_MDP">Veuillez entrer une adresse email et un mot de passe.</string>
+    <string name="PROFILE_INFO_AGE">%1$d ans</string>
+
+    <!-- COM_PROFILE_MY_PROFILE -->
+    <string name="PROFILE_BUTTON_EDIT_INFOS">Modifier mes infos</string>
+    <string name="PROFILE_BUTTON_EDIT_PHOTOS">Modifier ma photo</string>
+    <string name="PROFILE_BUTTON_ALL_MY_PRAYERS">Mes intentions de prière</string>
+    <string name="PROFILE_BUTTON_ALL_MY_CLASSIFIEDS">Mes annonces</string>
+    <string name="PROFILE_BUTTON_ALL_HIS_CLASSIFIEDS">Ses annonces</string>
+    <string name="PROFILE_BUTTON_ALL_HIS_PRAYERS">Ses intentions de prière</string>
+    <string name="PROFILE_TITLE_CONTACTS">Contacts sur Carpe Deum</string>
+    <string name="PROFILE_INFO_CONTACTS_SHOW_TO">Les inscrits que vous avez ajoutés à vos contacts et qui vous ont ajouté en retour sont affichés ici. Vous pouvez choisir qui peut voir cette liste sur votre profil.</string>
+    <string name="PROFILE_CONTACTS_EMPTY">Aucun contact réciproque.</string>
+    <string name="PROFILE_INFO_CONTACTS_SHOW_TO_EVERYONE">Visibles pour tous</string>
+    <string name="PROFILE_TITLE_UPDATES">Activité sur Carpe Deum</string>
+
+    <!-- COM_PROFILE_EDIT_PROFILE -->
+    <string name="PROFILE_FORM_LABEL_FULL_NAME">Nom</string>
+    <string name="PROFILE_FORM_LABEL_FIRST_NAME">Prénom</string>
+    <string name="PROFILE_FORM_LABEL_LAST_NAME">Nom</string>
+    <string name="PROFILE_FORM_LABEL_BIRTH_DATE">Date de naissance</string>
+    <string name="PROFILE_FORM_LABEL_GENDER">Sexe</string>
+    <string name="PROFILE_FORM_LABEL_GENDER_M">Homme</string>
+    <string name="PROFILE_FORM_LABEL_GENDER_F">Femme</string>
+    <string name="ACCOUNT_CHANGEMAIL_INFO">Vous pouvez changer à tout moment l\'adresse e-mail utilisée pour vous identifier sur Carpe Deum. Tapez votre nouvelle adresse deux fois pour éviter toute erreur de saisie, et entrez votre mot de passe par sécurité.</string>
+    <string name="ACCOUNT_CHANGEMAIL_INPUT_EMAIL1_PLACEHOLDER">Ma nouvelle adresse</string>
+    <string name="ACCOUNT_CHANGEMAIL_INPUT_EMAIL2_PLACEHOLDER">Retapez pour confirmation</string>
+    <string name="ACCOUNT_CHANGEMAIL_OK">Votre nouvelle adresse a bien été enregistrée. N\'oubliez pas qu\'elle vous servira à vous identifier sur l\'application et sur le site web Carpe Deum.</string>
+    <string name="ACCOUNT_CHANGEPASSWORD_INFO">Vous pouvez changer votre mot de passe. Entrez votre ancien mot de passe pour confirmer votre identité, puis tapez deux fois votre nouveau mot de passe pour éviter toute erreur de saisie.</string>
+    <string name="ACCOUNT_CHANGEPASSWORD_INPUT_OLDPASSWORD">Ancien</string>
+    <string name="ACCOUNT_CHANGEPASSWORD_INPUT_OLDPASSWORD_PLACEHOLDER">Mon ancien mot de passe</string>
+    <string name="ACCOUNT_CHANGEPASSWORD_INPUT_NEWPASSWORD1">Nouveau</string>
+    <string name="ACCOUNT_CHANGEPASSWORD_INPUT_NEWPASSWORD1_PLACEHOLDER">Mon nouveau mot de passe</string>
+    <string name="ACCOUNT_CHANGEPASSWORD_INPUT_NEWPASSWORD2_PLACEHOLDER">Retapez pour confirmation</string>
+    <string name="ACCOUNT_CHANGEPASSWORD_OK">Votre nouveau mot de passe a bien été enregistré. Ne le perdez pas, il vous servira à vous identifier sur l\'application et sur le site web Carpe Deum.</string>
+    <string name="ACCOUNT_CLOSE_INFO">Vous pouvez fermer votre compte sur Carpe Deum à tout moment. Toutes vos données et tous vos messages seront perdus ; il n\'y a pas d\'annulation possible. Si vous êtes sûr de vouloir supprimer votre compte, saisissez votre mot de passe ci-dessous.</string>
+    <string name="ACCOUNT_CLOSE_INPUT_PASSWORD">Mot de passe</string>
+    <string name="ACCOUNT_CLOSE_INPUT_PASSWORD_PLACEHOLDER">Votre mot de passe</string>
+    <string name="ACCOUNT_CLOSE_OK">Votre profil a bien été supprimé.</string>
+
+    <string-array name="gender">
+        <item>Homme</item>
+        <item>Femme</item>
+    </string-array>
+    <string-array name="month">
+        <item>Janvier</item>
+        <item>Février</item>
+        <item>Mars</item>
+        <item>Avril</item>
+        <item>Mai</item>
+        <item>Juin</item>
+        <item>Juillet</item>
+        <item>Août</item>
+        <item>Septembre</item>
+        <item>Octobre</item>
+        <item>Novembre</item>
+        <item>Décembre</item>
+    </string-array>
+
+    <string name="PROFILE_FORM_LABEL_SELF_PORTRAIT">Auto-portrait</string>
+
+    <!-- COM_ENSEMBLE -->
+    <string name="HOME_NUM_ONLINE">Connectés sur Carpe Deum</string>
+    <string name="HOME_NUM_PRAYERS">Intentions de prière</string>
+    <string name="HOME_NUM_CLASSIFIEDS">Annonces</string>
+    <string name="HOME_TITLE_CONTACT_UPDATES">Activité de mes contacts</string>
+    <string name="HOME_TITLE_PRAYERS">Intentions de prière à proximité</string>
+    <string name="HOME_ALL_PRAYERS">Afficher toutes les intentions de prière</string>
+    <string name="HOME_CREATE_PRAYER">Créer une intention de prière</string>
+    <string name="HOME_TITLE_CLASSIFIEDS">Annonces à proximité</string>
+    <string name="HOME_NO_CLASSIFIEDS">Aucune annonce récente.</string>
+    <string name="HOME_NO_CONTACT_UPDATES">Aucune activité récente de vos contacts. Vous pouvez ajouter une personne à vos contacts depuis la vue d\'affichage de son profil.</string>
+    <string name="HOME_MORE_CLASSIFIEDS">Plus d\'annonces…</string>
+    <string name="HOME_ALL_CLASSIFIEDS">Afficher toutes les annonces</string>
+    <string name="HOME_CREATE_CLASSIFIED">Créer une annonce</string>
+    <string name="CLASSIFIED_EDIT_INPUT_TITLE">Titre</string>
+    <string name="CLASSIFIED_EDIT_INPUT_TEXT">Texte</string>
+    <string name="CLASSIFIED_EDIT_ALLOW_COMMENTS">Accepter les commentaires</string>
+    <string name="PRAYER_EDIT_ALLOW_COMMENTS">Accepter les p\'tits mots</string>
+    <string name="CLASSIFIED_EDIT_INPUT_GPS">Inclure mes coordonnées GPS</string>
+    <string name="CLASSIFIED_EDIT_INPUT_PRIVATE">Visible uniquement pour mes contacts</string>
+    <string name="CLASSIFIED_EDIT_PHOTO">Photo</string>
+    <string name="UPDATE_POSTED_CLASSIFIED">Annonce</string>
+    <string name="UPDATE_POSTED_CLASSIFIED_TIP">Bon plan</string>
+    <string name="UPDATE_POSTED_CLASSIFIED_NOTICE">Faire-part</string>
+    <string name="UPDATE_POSTED_CLASSIFIED_EVENT">Evénement</string>
+    <string name="UPDATE_POSTED_CLASSIFIED_SELL">En vente</string>
+    <string name="UPDATE_POSTED_CLASSIFIED_BUY">Achat</string>
+    <string name="UPDATE_POSTED_CLASSIFIED_JOB_SEARCH">Recherche d\'emploi</string>
+    <string name="UPDATE_POSTED_CLASSIFIED_JOB_OFFER">Offre d\'emploi</string>
+    <string name="UPDATE_POSTED_CLASSIFIED_JOBS">Emploi</string>
+    <string name="UPDATE_POSTED_CLASSIFIED_FORSALE">Achat-vente</string>
+    <string name="UPDATE_POSTED_CLASSIFIED_TRADE">Dons et échanges</string>
+    <string name="UPDATE_POSTED_CLASSIFIED_HOUSING">Logement</string>
+    <string name="UPDATE_POSTED_CLASSIFIED_MISC">Divers</string>
+    <string name="LIKE">j\'aime</string>
+    <string name="CLASSIFIED_BY">Annonce de :</string>
+    <string name="CLASSIFIED_BUTTON_PRAY">Prier</string>
+    <string name="CLASSIFIED_BUTTON_PRAYED">A prié</string>
+    <string name="CLASSIFIED_BUTTON_CONTACT">Envoyer un message</string>
+    <string name="CLASSIFIED_EDIT">Modifier cette annonce</string>
+    <string name="CLASSIFIED_DELETE">Effacer cette annonce</string>
+    <string name="CLASSIFIED_DELETE_CONFIRM">Voulez-vous effacer cette annonce ? Vous ne pourrez pas annuler l\'opération.</string>
+    <string name="COMMENTS_NO_COMMENT_FROM_ANYONE">Aucun commentaire pour l\'instant. Soyez le premier à en publier un !</string>
+    <string name="COMMENTS_PLACEHOLDER_TEXT">Ajouter un commentaire…</string>
+    <string name="COMMENTS_PLACEHOLDER_TEXT_PRAYER">Ajouter un p\'tit mot…</string>
+    <string name="HOME_NO_PRAYERS">Aucune intention de prière récente.</string>
+    <string name="VIEW_TITLE_PRAYERS">Intentions de prière</string>
+    <string name="CLASSIFIEDS_LIST_BY_DATE">Récentes</string>
+    <string name="CLASSIFIEDS_LIST_BY_DISTANCE">À proximité</string>
+    <string name="loading_video">Loading video</string>
+    <string name="ADD_COMMENT_CLASSIFIED">Je réponds</string>
+    <string name="COMMENTS_REMOVE_CONFIRM">Voulez-vous effacer ce commentaire ?</string>
+    <string name="COMMENTS_REMOVE_CONFIRM_PRAYER">Voulez-vous effacer ce p\'tit mot ?</string>
+    <string name="COMMENTS_REMOVE">Effacer</string>
+
+    <!-- MY_PRAYERS -->
+    <string name="VIEW_TITLE_MY_PRAYERS">Mes intentions</string>
+    <string name="CLASSIFIED_EDIT_BUTTON_PHOTO_SET">Ajouter une photo</string>
+    <string name="CLASSIFIED_EDIT_BUTTON_PHOTO_CHANGE">Changer la photo</string>
+    <string name="CLASSIFIED_EDIT_BUTTON_PHOTO_REMOVE">Supprimer la photo</string>
+    <string name="PRAYED">prière</string>
+    <string name="PRAYED_S">prières</string>
+    <string name="CANDLE">cierge</string>
+    <string name="CANDLE_S">cierges</string>
+    <string name="COMMENT_PRAYER">p\'tit mot</string>
+    <string name="COMMENTS_PRAYER">p\'tits mots</string>
+    <string name="COMMENTS_PRAYER_HEADER">P\'tits mots</string>
+    <string name="title_activity_prayer">Prayer</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- PRAYER -->
+    <string name="PRAYER_BY">Intention de prière de :</string>
+    <string name="PRAYER_BUTTON_CANDLE">Allumer un cierge virtuel</string>
+    <string name="PRAYER_BUTTON_CANDLED">Cierge virtuel allumé</string>
+    <string name="PRAYER_MESSAGE_CANDLE">Allumer un cierge</string>
+    <string name="PRAYER_0_COMMENT">Un p\'tit mot ?</string>
+    <string name="PRAYER_DELETE">Effacer cette intention de prière</string>
+    <string name="PRAYER_DELETE_CONFIRM">Voulez-vous effacer cette intention de prière ? Vous ne pourrez pas annuler l\'opération.</string>
+    <string name="VIEW_TITLE_PRAYER">Intention de prière</string>
+    <string name="PRAYERS_LIST_BY_DATE">Récentes</string>
+    <string name="PRAYERS_LIST_BY_DISTANCE">À proximité</string>
+    <string name="PRAYERS_LIST_BY_POPULARITY">Actives</string>
+    <string name="PRAYERS_LIST_CREATE">Créer une intention de prière</string>
+    <string name="PRAYER_PRAYED">personnes ont prié pour.</string>
+    <string name="PRAYER_CANDLE">cierges virtuels ont été allumés.</string>
+    <string name="PRAYER_BUTTON_PRAY">Je prie</string>
+    <string name="PRAYER_BUTTON_PRAYED">J\'ai prié</string>
+    <string name="SENDING_PHOTO">Votre photo est en cours d\'envoi sur le serveur, acceptez-vous de patientez un petit moment ?</string>
+    <string name="SENDED_PHOTO">Photo envoyée correctement</string>
+
+    <!-- REGISTER -->
+    <string name="REGISTER_CREDENTIALS">Identifiants</string>
+    <string name="REGISTER_INFO_CREDENTIALS">Ces informations vous serviront d\'identifiant pour vous connecter sur Carpe Deum.</string>
+    <string name="REGISTER_INPUT_EMAIL">E-mail</string>
+    <string name="REGISTER_INPUT_EMAIL1_PLACEHOLDER">Mon adresse e-mail</string>
+    <string name="REGISTER_INPUT_EMAIL2_PLACEHOLDER">Retapez pour confirmation</string>
+    <string name="REGISTER_INPUT_PASSWORD">Mot de passe</string>
+    <string name="REGISTER_INPUT_PASSWORD1_PLACEHOLDER">Mon mot de passe</string>
+    <string name="REGISTER_INPUT_PASSWORD2_PLACEHOLDER">Retapez pour confirmation</string>
+    <string name="REGISTER_DETAILS">Détails</string>
+    <string name="REGISTER_INPUT_NAME">Nom</string>
+    <string name="REGISTER_INPUT_NAME_PLACEHOLDER">Choisissez un nom ou pseudo</string>
+    <string name="REGISTER_INPUT_FIRST_NAME">Prénom</string>
+    <string name="REGISTER_INPUT_FIRST_NAME_PLACEHOLDER">Mon prénom</string>
+    <string name="REGISTER_INPUT_LAST_NAME">Nom</string>
+    <string name="REGISTER_INPUT_LAST_NAME_PLACEHOLDER">Mon nom de famille</string>
+    <string name="REGISTER_INPUT_NAME_INFO">Votre nom sera publié sur votre profil et utilisé dans les listes.</string>
+    <string name="REGISTER_INPUT_GENDER_LABEL">Je suis…</string>
+    <string name="REGISTER_INPUT_GENDER_M">Un homme</string>
+    <string name="REGISTER_INPUT_GENDER_F">Une femme</string>
+    <string name="REGISTER_INPUT_BIRTH_DATE_LABEL">Date de naissance</string>
+    <string name="REGISTER_INPUT_ACCEPT_LABEL"><![CDATA[J\'accepte <strong>les conditions d\'utilisation et la politique de confidentialité</strong> de Carpe Deum.]]></string>
+    <string name="ERR_PASSWORD_TOO_SHORT">Votre mot de passe doit faire au moins quatre caractères.</string>
+    <string name="ERR_PASSWORD_NOT_MATCH">Vous devez taper deux fois le même mot de passe pour confirmation.</string>
+    <string name="ERR_EMAIL">Veuillez entrer une adresse email correcte.</string>
+    <string name="ERR_NAMES">Vous ne pouvez pas laisser le nom et le prénom vides.</string>
+    <string name="ERR_CONDITIONS">Vous devez accepter les conditions d\'utilisation et la politique de confidentialité de Carpe Deum pour vous inscrire.</string>
+
+    <!-- STATUS -->
+    <string name="STATUS_INFO">Votre humeur sera publiée sur votre profil et sur le Parvis. Un historique de vos dernières humeurs et autres activités est également visible sur votre profil.</string>
+    <string name="STATUS_DELETE">Effacer cette humeur</string>
+    <string name="STATUS_DELETE_CONFIRM">Voulez-vous effacer cette humeur ? Vous ne pourrez pas annuler l\'opération.</string>
+    <string name="VIEW_TITLE_STATUS">Humeur</string>
+
+    <!-- MESSAGES -->
+    <string name="MESSAGE_VIEW_REPLY_PLACEHOLDER">Répondre</string>
+    <string name="title_activity_change_password">ChangePassword</string>
+    <string name="MESSAGE_FILTERS_UNREAD">Non lus</string>
+    <string name="MESSAGE_FILTERS_ALL">Tous</string>
+    <string name="MESSAGE_NOT_CONNECTED_USER">Connectez-vous pour accéder à vos messages.</string>
+    <string name="MESSAGE_VIEW_EMPTY">Conversation vide.\nSaisissez un message ci-dessous pour entamer la discussion.</string>
+
+    <!-- COM_GEOMESSE -->
+    <string name="DIRECTORY_DISPLAYS_LIST">Liste</string>
+    <string name="DIRECTORY_DISPLAYS_MAP">Carte</string>
+    <string name="DIRECTORY_TYPES_ALL">Tous</string>
+    <string name="DIRECTORY_TYPES_USERS">Tous</string>
+    <string name="DIRECTORY_TYPES_CONTACTS">Mes contacts</string>
+    <string name="DIRECTORY_TYPES_PLACES">Lieux</string>
+    <string name="DIRECTORY_TYPES_SEARCH">Recherche</string>
+    <string name="DIRECTORY_FILTERS_ONLINE">En ligne</string>
+    <string name="DIRECTORY_FILTERS_ALL">Tous</string>
+    <string name="DIRECTORY_TITLE_ALL_USERS">Tous les inscrits</string>
+    <string name="DIRECTORY_TITLE_ONLINE_USERS">Les inscrits en ligne</string>
+    <string name="DIRECTORY_TITLE_ALL_CONTACTS">Tous mes contacts</string>
+    <string name="DIRECTORY_TITLE_ONLINE_CONTACTS">Mes contacts en ligne</string>
+    <string name="DIRECTORY_BUTTON_CHANGE_LOCATION">Changer la localisation</string>
+    <string name="DIRECTORY_BUTTON_CREATE_PLACE">Créer un lieu manquant</string>
+    <string name="DIRECTORY_BUTTON_FIND_FRIENDS">Retrouver mes amis</string>
+    <string name="PLACE_FORM_TITLE_SCHEDULE">Horaires des messes</string>
+    <string name="title_activity_display_place">DisplayPlace</string>
+    <string name="PLACE_SCHEDULE_WEEK">Messe en semaine</string>
+    <string name="PLACE_SCHEDULE_MASS_SUNDAY">Messes du dimanche</string>
+    <string name="PLACE_SCHEDULE_MONDAY">Lundi</string>
+    <string name="PLACE_SCHEDULE_TUESDAY">Mardi</string>
+    <string name="PLACE_SCHEDULE_WEDNESDAY">Mercredi</string>
+    <string name="PLACE_SCHEDULE_THURSDAY">Jeudi</string>
+    <string name="PLACE_SCHEDULE_FRIDAY">Vendredi</string>
+    <string name="PLACE_SCHEDULE_SATURDAY">Samedi</string>
+    <string name="PLACE_SCHEDULE_SUNDAY">Dimanche</string>
+    <string name="PLACE_SCHEDULE_NOTES">Notes: </string>
+    <string name="PLACE_SCHEDULE_EUCHARIST">Adoration eucharistique: </string>
+    <string name="PLACE_BUTTON_TEL">Tél</string>
+    <string name="PLACE_BUTTON_FAX">Fax</string>
+    <string name="PLACE_BUTTON_URL">Web</string>
+    <string name="PLACE_BUTTON_SCHEDULE">Horaire des messes</string>
+    <string name="PLACE_BUTTON_CHECKIN">Signaler ma présence</string>
+    <string name="PLACE_BUTTON_CHECKEDIN">Présence enregistrée</string>
+    <string name="PLACE_BUTTON_SHOW_MAP">Afficher le plan</string>
+    <string name="title_activity_parvis">Parvis</string>
+    <string name="SEARCH_HERE">Rechercher ici</string>
+
+    <string-array name="PLACE_TYPE">
+        <item>Chapelle</item>
+        <item>Eglise</item>
+        <item>Paroisse</item>
+        <item>Cathédrale</item>
+        <item>Basilique</item>
+        <item>Santuaire</item>
+        <item>Monatère</item>
+        <item>Couvent</item>
+        <item>Abbaye</item>
+        <item>Collégiale</item>
+        <item>Oratoire</item>
+    </string-array>
+
+    <string name="PLACE_FORM_INFO_CREATE">Si un lieu manque dans la base de données, vous pouvez nous donner les informations dont vous disposez et l\'équipe de Carpe Deum s\'occupera du reste.</string>
+    <string name="PLACE_FORM_INFO_EDIT">Si les informations d\'un lieu sont erronées, vous pouvez nous soumettre les modifications et l\'équipe de Carpe Deum les passera en revue.</string>
+    <string name="PLACE_FORM_TITLE_IDENTITY">Informations</string>
+    <string name="PLACE_FORM_LABEL_NAME">Nom</string>
+    <string name="PLACE_FORM_LABEL_TYPE">Type</string>
+    <string name="PLACE_FORM_LABEL_ADDRESS">Adresse</string>
+    <string name="PLACE_FORM_LABEL_ADDRESS_ZIP">Code postal</string>
+    <string name="PLACE_FORM_LABEL_ADDRESS_CITY">Ville</string>
+    <string name="PLACE_FORM_LABEL_ADDRESS_COUNTRY">Pays</string>
+    <string name="PLACE_FORM_LABEL_TEL">Tél.</string>
+    <string name="PLACE_FORM_LABEL_URL">Web</string>
+    <string name="PLACE_FORM_LABEL_SCHEDULE">Horaires</string>
+    <string name="PLACE_FORM_LABEL_SCHEDULE_MASS_WEEK">Messes\nde semaine</string>
+    <string name="PLACE_FORM_LABEL_SCHEDULE_MASS_SUNDAY">Messes\ndu dimanche</string>
+    <string name="PLACE_FORM_LABEL_SCHEDULE_EUCHARIST">Euchariste</string>
+    <string name="PLACE_FORM_LABEL_SCHEDULE_NOTES">Remarques</string>
+    <string name="PLACE_FORM_LABEL_PHOTO">Photo</string>
+    <string name="PLACE_FORM_BUTTON_PHOTO_SET">Proposer une photo</string>
+    <string name="PLACE_FORM_BUTTON_PHOTO_CHANGE">Proposer une photo</string>
+    <string name="PLACE_FORM_TITLE_PHOTOS">Photos</string>
+    <string name="PLACE_FORM_BUTTON_PHOTOS_ADD">Ajouter une photo</string>
+    <string name="PLACE_FORM_TITLE_INTERNAL">Observations pour l\'équipe</string>
+    <string name="PLACE_FORM_MISSING_FIELDS">Merci de renseigner le nom de l\'église, l\'adresse, le code postal, la ville et le pays.</string>
+    <string name="PLACE_FORM_OK">Vos modifications ont bien été enregistrées. Elles seront intégrées par l\'équipe de Carpe Deum.</string>
+    <string name="UPLOAD_PHOTO_CAMERA">Prendre une photo</string>
+    <string name="UPLOAD_PHOTO_LIBRARY">Choisir une photo existante</string>
+
+    <!-- COM_ENSEMBLE -->
+    <string name="VIEW_TITLE_DIRECTORY">Le Parvis</string>
+
+    <!-- COM_NOTIFICATION -->
+    <string name="RECEIVED_MESSAGE">Vous avez reçu un nouveau message !</string>
+    <string name="RECEIVED_NEWMESSAGE">Nouveau message !</string>
+
+    <!-- COM_USER -->
+    <string name="PROFILE_TITLE_PHOTOS">Photos</string>
+    <string name="PROFILE_TITLE_PHOTOS_PUBLIC">Photos</string>
+    <string name="PROFILE_TITLE_PHOTOS_PRIVATE">Photos privées</string>
+    <string name="PROFILE_INFO_PHOTOS_PRIVATE">Seuls les inscrits que vous avez ajoutés à vos contacts peuvent voir ces photos.</string>
+    <string name="PROFILE_FORM_INFO_PHOTOS_PRIVATE">Ces photos ne seront visibles que pour les inscrits que vous avez ajoutés à vos contacts.</string>
+    <string name="PROFILE_FORM_TITLE_PHOTOS_PUBLIC">Album photo public</string>
+    <string name="PROFILE_FORM_TITLE_PHOTOS_PRIVATE">Album photo privé</string>
+    <string name="PROFILE_FORM_BUTTON_PHOTO_CHANGE">Changer ma photo</string>
+    <string name="PROFILE_IS_PRIEST">Prêtre</string>
+    <string name="PROFILE_IS_PRIEST_INFO">Ce profil a été vérifié par Carpe Deum comme appartenant à un prêtre.\nSi vous êtes prêtre ou religieux et que vous souhaitez afficher ce badge sur votre profil, contactez l\'équipe de Carpe Deum.</string>
+    <string name="PROFILE_IS_PREMIUM">Ange Gardien de Carpe Deum</string>
+    <string name="PROFILE_IS_PREMIUM_INFO">Ce profil soutient l\'action de Carpe Deum grâce à son compte Ange Gardien.</string>
+
+    <!-- PREMIUM -->
+    <string name="VIEW_TITLE_ACCOUNT_PREMIUM">Ange Gardien</string>
+    <string name="ACCOUNT_PREMIUM_INFO">Soyez un ange ! :-) Profitez de contenus et de fonctionnalités supplémentaires, masquez les pubs et participez au développement de Carpe Deum !</string>
+    <string name="ACCOUNT_PREMIUM_DAYS_MANY">Vous êtes un ange pour %1$d jours, merci !</string>
+    <string name="ACCOUNT_PREMIUM_DAY_FEW">Vous êtes un ange, merci ! Mais attention, plus que pour %d jours. Alimentez votre compte Ange Gardien !</string>
+    <string name="ACCOUNT_PREMIUM_1_DAY">Vous êtes un ange, merci ! Mais attention, plus que pour une journée. Soyez sympa, alimentez votre compte Ange Gardien !</string>
+    <string name="ACCOUNT_PREMIUM_0_DAY">Vous allez perdre vos ailes d’ange ! Et ça risque de faire mal en tombant Alimentez dès maintenant votre compte Ange Gardien.</string>
+    <string name="title_activity_kiosque">Kiosque</string>
+    <string name="title_activity_news_folder">NewsFolder</string>
+    <string name="title_activity_invite_friends">InviteFriends</string>
+    <string name="HOME_VISIT_0_1"><![CDATA[<b>%1$d</b> visite sur mon profil depuis sa création]]></string>
+    <string name="HOME_VISIT_N"><![CDATA[<b>%1$d</b> visites sur mon profil depuis sa création]]></string>
+
+    <!-- COM_USER_INVITE -->
+    <string name="FIND_OR_INVITE_INFO">Vous pouvez rechercher automatiquement vos contacts Facebook sur Carpe Deum, et inviter ceux qui ne sont pas déjà inscrits. Vous pouvez également envoyer un mail d\'invitation à vos amis depuis l\'app pour leur faire connaître Carpe Deum.</string>
+    <string name="FIND_OR_INVITE_FACEBOOK">Rechercher mes amis Facebook</string>
+    <string name="FIND_OR_INVITE_FACEBOOK_LIST_TO_ADD">Déjà inscrits sur Carpe Deum</string>
+    <string name="FIND_OR_INVITE_FACEBOOK_LIST_TO_INVITE">Vos contacts sur Facebook</string>
+    <string name="FIND_OR_INVITE_FACEBOOK_BUTTON_POST_ON_WALL">Publier un lien vers Carpe Deum</string>
+    <string name="FIND_OR_INVITE_FACEBOOK_BUTTON_ADD">Ajouter</string>
+    <string name="FIND_OR_INVITE_FACEBOOK_BUTTON_INVITE">Inviter</string>
+    <string name="FIND_OR_INVITE_FACEBOOK_LABEL_ADDED">Ajouté</string>
+    <string name="FIND_OR_INVITE_FACEBOOK_LABEL_INVITED">Invité</string>
+    <string name="FIND_OR_INVITE_FACEBOOK_LABEL_ALREADY_ADDED">Déjà\najouté</string>
+    <string name="FIND_OR_INVITE_FACEBOOK_NO_CONTACTS">Aucun contact trouvé.</string>
+    <string name="FIND_OR_INVITE_FACEBOOK_NO_CONTACTS_ON_CARPE_DEUM">Aucun contact sur Carpe Deum.\nA vous de faire passer le mot !</string>
+    <string name="FIND_OR_INVITE_FACEBOOK_WALL_DESCRIPTION">Carpe Deum une application gratuite sur Android dont le but est de nous réunir au sein d’un réseau solidaire. C’est simple et dynamique : les évangiles audio commentés, nos intentions de prières partagées, Géomesse qui localise les églises avec les horaires de messes…  Bref, un réseau qui a du sens !</string>
+    <string name="FIND_OR_INVITE_FACEBOOK_ERROR_10000">Une erreur s\'est produite. Merci de bien vouloir réessayer.</string>
+    <string name="FIND_OR_INVITE_MAIL">Inviter mes amis par mail</string>
+    <string name="FIND_OR_INVITE_MAIL_SUBJECT">Invitation personnelle</string>
+    <string name="FIND_OR_INVITE_MAIL_BODY"><![CDATA[Bonjour,\n
+
+        Je t\'invite à découvrir Carpe Deum sur Android. C\'est une application gratuite dont le but est de nous réunir au sein d\'un réseau solidaire. C\'est simple et dynamique : les évangiles audio commentés, nos intentions de prières partagées, Géomesse qui localise les églises avec les horaires de messes… Bref, un réseau qui a du sens !
+
+    L\'application est téléchargeable depuis le site http://www.carpedeum.fr/ ou directement sur Google Play, en recherchant \"Carpe Deum\".]]></string>
+
+    <!-- DIVERS -->
+
+    <string name="LIST_LOAD_MORE">Charger la suite…</string>
+    <string name="description">description</string>
+    <string name="betaandroid">CarpeDeum sur Android est actuellement en version bêta. Cliquez-ici pour nous signaler tout dysfonctionnement.</string>
+    <string name="daysaint">Le Saint Du Jour</string>
+
+</resources>

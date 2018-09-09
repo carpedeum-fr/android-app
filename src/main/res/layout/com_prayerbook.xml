@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:focusable="true" android:focusableInTouchMode="true"
+        >
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <LinearLayout
+                android:id="@+id/linearLayout_prayerbook_com_prayerbook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+            <TextView
+                    android:id="@+id/textView_prayerTitle_com_prayerbook"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dip"
+                    android:text="@string/CarnetDePrieres"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/questions_de_foi_title"
+                    android:paddingLeft="10dip"
+                    android:gravity="left|center_vertical"/>
+            <TextView
+                    android:id="@+id/textView_prayerIntro_com_prayerbook"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/Prayer"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/footer_shadow"
+                android:scaleType="fitXY"
+                    />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/standardText"
+            android:textColor="@color/black"
+            android:text="@string/FIND_OR_INVITE_INFO"
+            android:padding="@dimen/little_margin"
+            android:layout_marginBottom="@dimen/main_margin"
+            />
+        <Button
+            android:id="@+id/button_invite_mail_com_user_invite_friends"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dip"
+            android:background="@drawable/roundedcornerquestions_home"
+            android:layout_marginLeft="@dimen/main_margin"
+            android:layout_marginRight="@dimen/main_margin"
+            android:layout_marginBottom="@dimen/main_margin"
+            android:text="@string/FIND_OR_INVITE_MAIL"
+            android:textSize="@dimen/standardText"
+            android:textColor="@color/black"
+            android:drawableRight="@drawable/disclosure"
+            />
+    </LinearLayout>
+</ScrollView>

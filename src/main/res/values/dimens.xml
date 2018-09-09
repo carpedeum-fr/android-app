@@ -1,0 +1,28 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="main_margin">20dip</dimen>
+    <dimen name="little_margin">10dip</dimen>
+    <dimen name="voice_text_margin">20dip</dimen>
+
+    <dimen name="voice_menu">17sp</dimen>
+    <dimen name="voice_text">16sp</dimen>
+    <dimen name="voice_copyright">12sp</dimen>
+    <dimen name="share">18sp</dimen>
+    <dimen name="voice_title">25sp</dimen>
+    <dimen name="voice_title_lecture">27sp</dimen>
+    <dimen name="home_calendar_size">12sp</dimen>
+    <dimen name="calendar_title">22sp</dimen>
+    <dimen name="calendar_voice_title">18sp</dimen>
+    <dimen name="questions_de_foi_title">25sp</dimen>
+    <dimen name="Prayer">15sp</dimen>
+    <dimen name="CarpeDeumHome">12sp</dimen>
+    <dimen name="CarpeDeumHomeButtons">15sp</dimen>
+    <dimen name="standardText">15sp</dimen>
+    <dimen name="placeTitle">19sp</dimen>
+    <dimen name="standardLittleText">13sp</dimen>
+    <dimen name="textUnderButtons">13sp</dimen>
+    <dimen name="voice_title_home">11sp</dimen>
+</resources>

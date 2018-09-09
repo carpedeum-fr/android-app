@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="theme">
+        <item>R.layout.header</item>
+        <item>R.drawable.headerbackgroundblue</item>
+        <item>R.drawable.headerbackgroundgold</item>
+        <item>R.drawable.headerbackgroundgreen</item>
+        <item>R.drawable.headerbackgroundmauve</item>
+        <item>R.drawable.headerbackgroundorange</item>
+        <item>R.drawable.headerbackgroundpurple</item>
+        <item>R.drawable.headerbackgroundred</item>
+        <item>R.drawable.headerbackgroundsilver</item>
+    </array>
+</resources>

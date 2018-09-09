@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background1" >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background1"
+        >
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="@dimen/little_margin"
+            android:text="@string/ACCOUNT_CLOSE_INFO"
+            android:textSize="@dimen/standardText"
+            android:textColor="@color/black"
+            />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/little_margin"
+            >
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="35"
+                android:textColor="@color/black"
+                android:textSize="@dimen/standardText"
+                android:text="@string/ACCOUNT_CLOSE_INPUT_PASSWORD"
+                />
+            <EditText
+                android:id="@+id/editText_password_com_delete_profile"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="65"
+                android:inputType="textPassword"
+                android:hint="@string/ACCOUNT_CLOSE_INPUT_PASSWORD_PLACEHOLDER"
+                android:textColor="@color/black"
+                android:textSize="@dimen/standardText"
+                android:ellipsize="end"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:contentDescription="@string/header"
+        android:src="@drawable/footer_shadow"
+        android:layout_above="@+id/relativeLayout_footer_com_delete_profile"
+        />
+    <RelativeLayout
+        android:id="@+id/relativeLayout_footer_com_delete_profile"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/subheader_background" >
+        <Button
+            android:id="@+id/button_ok_com_delete_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/OK"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/standardText"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/segment_on_single"
+            />
+    </RelativeLayout>
+</RelativeLayout>

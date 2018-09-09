@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="70dip"
+    android:background="@drawable/footer_background"
+    android:gravity="center"
+    >
+    <Button
+        android:id="@+id/button_logout_com_carpedeum_footer"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/HOME_LOGIN"
+        android:background="@drawable/roundedcornerquestions_home"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="2dip"
+        android:paddingBottom="2dip"
+        android:drawableRight="@drawable/footer_logout"
+        android:drawablePadding="5dip"
+        android:layout_marginRight="@dimen/main_margin"
+        android:textSize="@dimen/standardLittleText"
+        />
+    <Button
+        android:id="@+id/button_contact_com_carpedeum_footer"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/HOME_CONTACT_US"
+        android:background="@drawable/roundedcornerquestions_home"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="2dip"
+        android:paddingBottom="2dip"
+        android:drawableRight="@drawable/footer_contact"
+        android:drawablePadding="5dip"
+        android:textSize="@dimen/standardLittleText"
+        />
+</LinearLayout>

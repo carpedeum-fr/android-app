@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adds"
+        android:background="@color/white"
+        >
+        <include layout="@layout/com_classifieds_menu" />
+        <TextView
+            android:id="@+id/textView_no_results_com_classifieds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/INFO_NO_RESULTS"
+            android:textColor="@color/black"
+            android:textSize="@dimen/standardText"
+            android:background="@drawable/roundedcorner_yellow"
+            android:layout_margin="@dimen/main_margin"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            />
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/background1"
+            >
+            <LinearLayout
+                android:id="@+id/linearLayout_classifieds_com_classifieds"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+        </ScrollView>
+    </LinearLayout>
+    <ImageView
+        android:layout_above="@+id/adds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/Pub"
+        android:src="@drawable/footer_shadow" />
+    <ImageView
+        android:id="@+id/adds"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/Pub"
+        android:text="@string/Pub"
+        android:textSize="30sp"
+        android:src="@drawable/test_pub"
+        android:gravity="center" />
+</RelativeLayout>

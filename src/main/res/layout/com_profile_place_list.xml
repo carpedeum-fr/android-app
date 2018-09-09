@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    >
+
+    <ImageView
+        android:id="@+id/imageView_churchimage_com_profile_place_list"
+        android:contentDescription="@string/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/default_user"
+        android:layout_margin="5dip"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/textView_name_com_profile_place_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fête de l Immaculée Conception"
+        android:layout_alignBottom="@+id/textView_distance_com_profile_place_list"
+        android:layout_alignTop="@+id/imageView_churchimage_com_profile_place_list"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@+id/imageView_churchimage_com_profile_place_list"
+        android:layout_toEndOf="@+id/imageView_churchimage_com_profile_place_list"
+        android:layout_margin="10dip"
+        android:textSize="@dimen/standardText"
+        android:textColor="@color/black"
+        android:layout_marginBottom="5dip"
+        />
+
+    <TextView
+        android:id="@+id/textView_distance_com_profile_place_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="190 km • 1 cierge • 8 prières"
+        android:layout_alignBottom="@+id/imageView_churchimage_com_profile_place_list"
+        android:layout_toRightOf="@+id/imageView_churchimage_com_profile_place_list"
+        android:layout_toEndOf="@+id/imageView_churchimage_com_profile_place_list"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="10dip"
+        android:textSize="12sp"
+        android:textColor="#737373"
+        />
+
+</RelativeLayout>

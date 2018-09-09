@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@color/background1"
+        >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dip"
+        >
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+            <TextView
+                    android:id="@+id/textView_connect_or_login_com_monprofil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/standardText"
+                    android:textColor="@color/black"
+                    android:layout_margin="@dimen/little_margin"
+                    />
+            <Button
+                    android:id="@+id/button_register_com_monprofil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/LOGIN_NEW_ACCOUNT"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/standardText"
+                    android:padding="5dip"
+                    android:layout_marginLeft="15dip"
+                    android:layout_marginRight="15dip"
+                    android:layout_marginBottom="10dip"
+                    android:background="@drawable/roundedcornerquestions_home"
+                    />
+            <Button
+                    android:id="@+id/button_login_com_monprofil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/LOGIN_EXISTING_ACCOUNT"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/standardText"
+                    android:padding="5dip"
+                    android:layout_marginLeft="15dip"
+                    android:layout_marginRight="15dip"
+                    android:layout_marginBottom="20dip"
+                    android:background="@drawable/roundedcornerquestions_home"
+                    />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+    <include layout="@layout/com_carpedeum_home_buttons" />
+</RelativeLayout>

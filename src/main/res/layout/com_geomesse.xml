@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+    <include layout="@layout/com_geomesse_menu" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/header_shadow"
+        android:contentDescription="@string/header"
+        android:scaleType="fitXY"
+        />
+    <TextView
+        android:id="@+id/textView_create_place_com_geomesse"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:text="@string/DIRECTORY_BUTTON_CREATE_PLACE"
+        android:textSize="@dimen/standardText"
+        android:textColor="@color/black"
+        android:padding="@dimen/little_margin"
+        android:drawableRight="@drawable/disclosure"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/grisSeparator"
+        />
+    <TextView
+        android:id="@+id/textView_noresult_com_geomesse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/little_margin"
+        android:text="@string/INFO_NO_RESULTS"
+        android:textColor="@color/gris98"
+        android:background="@color/white"
+        android:textSize="@dimen/standardLittleText"
+        android:visibility="gone"
+        />
+    <ScrollView
+        android:id="@+id/scrollView_places_com_geomesse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:id="@+id/linearLayout_places_com_geomesse"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:id="@+id/textView_message_com_geomesse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gris73"
+                android:textSize="@dimen/standardLittleText"
+                android:padding="@dimen/little_margin"
+                />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/linearLayout_map_com_geomesse"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        >
+        <fragment
+            android:id="@+id/mapfragment_com_geomesse"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:name="com.google.android.gms.maps.SupportMapFragment"/>
+    </LinearLayout>
+</LinearLayout>

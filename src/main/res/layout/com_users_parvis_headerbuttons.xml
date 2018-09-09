@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dip"
+    android:orientation="horizontal"
+    android:background="@drawable/subheader_background"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:id="@+id/linearLayout_header_users_parvis"
+    >
+    <Button
+        android:id="@+id/button_mycontacts_com_users_parvis_headerbuttons"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="30"
+        android:text="@string/DIRECTORY_TYPES_CONTACTS"
+        android:layout_marginLeft="@dimen/little_margin"
+        android:padding="2dip"
+        android:textColor="@color/white"
+        android:background="@drawable/roundedcornergristransparentleft" />
+    <Button
+        android:id="@+id/button_allcontacts_com_users_parvis_headerbuttons"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:layout_marginRight="@dimen/little_margin"
+        android:text="@string/DIRECTORY_TYPES_USERS"
+        android:padding="2dip"
+        android:textColor="@color/black"
+        android:background="@drawable/segment_on_single" />
+    <Button
+        android:id="@+id/button_onlinecontacts_com_users_parvis_headerbuttons"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:text="@string/DIRECTORY_FILTERS_ONLINE"
+        android:layout_marginLeft="@dimen/little_margin"
+        android:padding="2dip"
+        android:textColor="@color/black"
+        android:background="@drawable/segment_on_single" />
+    <Button
+        android:id="@+id/button_allonoffline_com_users_parvis_headerbuttons"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:layout_marginRight="@dimen/little_margin"
+        android:text="@string/DIRECTORY_TYPES_USERS"
+        android:padding="2dip"
+        android:textColor="@color/white"
+        android:background="@drawable/roundedcornergristransparentright" />
+
+</LinearLayout>

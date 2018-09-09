@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background1"
+    >
+    <TextView
+        android:id="@+id/textView_candles_remain_com_account_candles"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/ACCOUNT_CANDLES_d_REMAINING_FEW"
+        android:textSize="@dimen/standardText"
+        android:textColor="@color/black"
+        android:padding="@dimen/little_margin"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/ACCOUNT_CANDLES_INFO"
+        android:textSize="@dimen/standardText"
+        android:textColor="@color/black"
+        android:padding="@dimen/little_margin"
+        />
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <LinearLayout
+            android:id="@+id/linearLayout_candles_com_account_candles"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/little_margin"/>
+    </ScrollView>
+</LinearLayout>

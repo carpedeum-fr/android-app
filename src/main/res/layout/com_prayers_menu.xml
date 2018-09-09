@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout_com_prayers_menu"
+    android:layout_width="match_parent"
+    android:layout_height="45dip"
+    android:orientation="horizontal"
+    android:background="@drawable/subheader_background"
+    android:layout_gravity="center"
+    android:gravity="center" >
+    <LinearLayout
+        android:id="@+id/linearLayout_menu_prayers_com_prayers_menu"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:orientation="horizontal"
+        android:padding="5dip"
+        >
+
+        <Button
+            android:id="@+id/button_date_com_prayers_menu"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:text="@string/PRAYERS_LIST_BY_DATE"
+            android:padding="2dip"
+            android:textColor="@color/black"
+            android:background="@drawable/segment_on_single" />
+        <Button
+            android:id="@+id/button_distance_com_prayers_menu"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:text="@string/PRAYERS_LIST_BY_DISTANCE"
+            android:padding="2dip"
+            android:textColor="@color/white"
+            android:background="@color/grisTransparent" />
+        <Button
+            android:id="@+id/button_active_com_prayers_menu"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:text="@string/PRAYERS_LIST_BY_POPULARITY"
+            android:padding="2dip"
+            android:textColor="@color/white"
+            android:background="@drawable/roundedcornergristransparentright" />
+
+    </LinearLayout>
+</LinearLayout>

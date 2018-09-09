@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dip"
+    android:orientation="horizontal"
+    android:background="@drawable/subheader_background"
+    android:layout_gravity="center"
+    android:gravity="center"
+     >
+    <Button
+        android:id="@+id/button_oraison_com_voice_godvoice"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:text="@string/Oraison"
+        android:layout_marginLeft="@dimen/little_margin"
+        android:textColor="@color/white"
+        android:background="@drawable/roundedcornergristransparentleft" />
+    <Button
+        android:id="@+id/button_lecture_com_voice_godvoice"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:text="@string/CALENDAR_TAB_READING"
+        android:textColor="@color/white"
+        android:background="@color/grisTransparent" />
+    <Button
+        android:id="@+id/button_psaume_com_voice_godvoice"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:text="@string/CALENDAR_TAB_PSALM"
+        android:textColor="@color/white"
+        android:background="@color/grisTransparent" />
+    <Button
+        android:id="@+id/button_evangile_com_voice_godvoice"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:text="@string/Evangile"
+        android:textColor="@color/black"
+        android:background="@drawable/segment_on_single" />
+    <Button
+        android:id="@+id/button_meditation_com_voice_godvoice"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:text="@string/Meditation"
+        android:layout_marginRight="@dimen/little_margin"
+        android:textColor="@color/white"
+        android:background="@drawable/roundedcornergristransparentright" />
+
+</LinearLayout>
